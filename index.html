@@ -3,36 +3,133 @@
 <head>
     <meta charset="UTF-8">
     <title>5 Things to Know About Rattlesnakes and Their Babies</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            width: 100%;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid #ddd; /* Adjusted border thickness */
+        }
+        nav {
+            background-color: #f0f0f0;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: flex-start;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        main {
+            width: 70%;
+            padding: 20px;
+        }
+        aside {
+            width: 30%;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-right: 1px solid #ddd; /* Added border for separation */
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        form {
+            margin-bottom: 20px;
+        }
+        footer {
+            margin-top: auto;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #ddd; /* Thin grey line */
+            margin: 0; /* Adjusted margin to remove space */
+        }
+        .separator {
+            border-right: 1px solid #ddd; /* Separator between sidebar and content */
+            height: 100%;
+        }
+    </style>
 </head>
 <body>
-<img src="UniversityLogo.png" alt="Logo of The University of Arizona.">
-<span>
-    <a href="index.html">Home Page</a> | <a href="hometown.html">Visit My Hometown Page</a> |
-    <a href="gallery.html">see my gallery page</a> | <a href="poem.html">Poem by Emily Dickerson</a>
-</span>
-<h1>5 Things to Know About Rattlesnakes and Their Babies</h1>
-<p> UA College of Pharmacy | Aug. 6, 2014
-<p> Arguably, snake season is year-round in Arizona, a state known for its rattlers. But baby rattlesnakes are born in July and August, making these two months especially dangerous for hikers, gardeners, children and others at high risk of exposure to rattlesnake bites.
-<img src="SnakeBite.jpg" alt="Snake bite on side of child's foot.">
-<p> So far this year, 74 rattlesnake bites on humans have been reported to the Arizona Poison and Drug Information Center. Based at the University of Arizona College of Pharmacy, the center serves the entire state of Arizona except for Maricopa County, providing free and confidential poison and medication information to callers around the clock.
-<p> Specialists answering the phones at the center regularly receive calls from Arizonans of all ages who don't realize they were bitten by a rattler. The poison center urges anyone who feels a mysterious sting, pinch, or bite while outdoors to immediately call the center at 800-222-1222.
-<p> "We will ask a few questions that will help you either identify possible snakebites or eliminate it," said Keith Boesen, director of the Arizona Poison and Drug Information Center. "With snakebite, the sooner the medical treatment, the better the outcome, so calling us right away can make a very big difference for the victims and the medical teams treating them."
-<p> The center advises anyone who might come cross paths with rattlesnakes to be aware of these five things:
-<ol>
-    <li> Baby rattlesnakes range in length from 6 to 12 inches and are easily camouflaged by brush and grass.
-    <li> Baby rattlesnakes are rattleless until they first shed their skins, so there will be no infamous "chica-chica" sound before they strike.
-    <li> Despite their impish size, baby snakes have enough venom to be very dangerous if they bite a human.
-    <li> Adult rattlesnakes do not always rattle an audible warning before or while they are biting.
-    <li> It's a good idea to call the poison center if you notice an unidentified small cut or wound, even if you feel no pain. With the lack of telltale rattle warning, people can be bitten without knowing what has happened until they notice their symptoms and attribute them to a snakebite.
-</ol>
+<header>
+    <img src="UniversityLogo.png" alt="Logo of The University of Arizona." style="float: left;">
+    <nav>
+        <a href="index.html">Home Page</a> |
+        <a href="hometown.html">Visit My Hometown Page</a> |
+        <a href="gallery.html">See My Gallery Page</a> |
+        <a href="poem.html">Poem by Emily Dickinson</a>
+    </nav>
+</header>
+
+<div class="container">
+    <aside>
+        <h2>Sidebar</h2>
+        <form>
+            <label for="contact">Contact Form:</label><br>
+            <input type="text" id="contact" name="contact"><br>
+            <label for="calendar">Your Calendar:</label><br>
+            <input type="text" id="calendar" name="calendar"><br>
+            <label for="rss">RSS Feed:</label><br>
+            <input type="text" id="rss" name="rss"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </aside>
+    <div class="separator"></div> <!-- Added separator between sidebar and content -->
+    <main>
+        <h1>5 Things to Know About Rattlesnakes and Their Babies</h1>
+        <p> UA College of Pharmacy | Aug. 6, 2014</p>
+        <p> Arguably, snake season is year-round in Arizona, a state known for its rattlers. But baby rattlesnakes are born in July and August, making these two months especially dangerous for hikers, gardeners, children, and others at high risk of exposure to rattlesnake bites.</p>
+        <img src="SnakeBite.jpg" alt="Snake bite on side of child's foot.">
+        <p> So far this year, 74 rattlesnake bites on humans have been reported to the Arizona Poison and Drug Information Center. Based at the University of Arizona College of Pharmacy, the center serves the entire state of Arizona except for Maricopa County, providing free and confidential poison and medication information to callers around the clock.</p>
+        <p> Specialists answering the phones at the center regularly receive calls from Arizonans of all ages who don't realize they were bitten by a rattler. The poison center urges anyone who feels a mysterious sting, pinch, or bite while outdoors to immediately call the center at 800-222-1222.</p>
+        <p> "We will ask a few questions that will help you either identify possible snakebites or eliminate it," said Keith Boesen, director of the Arizona Poison and Drug Information Center. "With snakebite, the sooner the medical treatment, the better the outcome, so calling us right away can make a very big difference for the victims and the medical teams treating them."</p>
+        <p> The center advises anyone who might come across paths with rattlesnakes to be aware of these five things:</p>
+        <ol>
+            <li> Baby rattlesnakes range in length from 6 to 12 inches and are easily camouflaged by brush and grass.</li>
+            <li> Baby rattlesnakes are rattleless until they first shed their skins, so there will be no infamous "chica-chica" sound before they strike.</li>
+            <li> Despite their impish size, baby snakes have enough venom to be very dangerous if they bite a human.</li>
+            <li> Adult rattlesnakes do not always rattle an audible warning before or while they are biting.</li>
+            <li> It's a good idea to call the poison center if you notice an unidentified small cut or wound, even if you feel no pain. With the lack of telltale rattle warning, people can be bitten without knowing what has happened until they notice their symptoms and attribute them to a snakebite.</li>
+        </ol>
+    </main>
+</div>
+
 <footer>
-<hr>
-<p>
-    <a href="https://twitter.com/">Twitter</a>
-    <a href="https://www.facebook.com/">Facebook</a>
-    <a href="https://www.linkedin.com/">Linkedin</a>
-</p>
-<hr>
+    <hr>
+    <p>
+        <a href="https://twitter.com/">Twitter</a> |
+        <a href="https://www.facebook.com/">Facebook</a> |
+        <a href="https://www.linkedin.com/">Linkedin</a>
+    </p>
+    <hr>
 </footer>
+
 </body>
 </html>
+
+
+
